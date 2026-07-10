@@ -1,0 +1,27 @@
+# --- OCaml & Dune Artifacts ---
+_build/
+.merlin
+*.cmi
+*.cmo
+*.cmx
+*.o
+*.a
+*.so
+*.cma
+*.cmxa
+*.cmxs
+
+# --- Opam Local Switches ---
+_opam/
+*.opam.locked
+
+# --- VS Code Configurations ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# --- OS & System Junk ---
+.DS_Store
+Thumbs.db

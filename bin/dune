@@ -1,0 +1,4 @@
+(executable
+ (public_name emergency_shelter)
+ (name main)
+ (libraries emergency_shelter))
