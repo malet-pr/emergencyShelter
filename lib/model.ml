@@ -1,18 +1,4 @@
 open CalendarLib
-(*
-  The shelter has limited capacity and must decide who can be admitted, 
-  who must be placed on a waiting list, and who cannot be accepted.
-
-  Each request contains information about the person, the time they arrived, 
-  whether they are accompanied by dependants, whether they have an urgent medical need, 
-  and whether they require an accessible bed.
-
-  The shelter has:
-- a fixed number of ordinary beds;
-- a fixed number of accessible beds;
-- a maximum total occupancy;
-- a closing time after which ordinary requests are not accepted.
-*)
 
 type shelter = {
   ordinary_beds: int;
