@@ -1,4 +1,4 @@
 (executable
- (public_name emergency_shelter)
+ (public_name shelter)
  (name main)
- (libraries emergency_shelter))
+ (libraries emergency_shelter calendar))
